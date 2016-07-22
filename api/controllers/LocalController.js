@@ -8,11 +8,10 @@
 module.exports = {
 
 'local':function(req,res){
-	console.log('app launched');
 	//console.log(__('Welcome'));
 	var locale = res.getLocale();
-	console.log(locale);
 	if(locale === 'en'){
+		//change locale to espanoil
 		res.setLocale('es');
 	}else{
 		res.setLocale('en');
@@ -21,12 +20,11 @@ module.exports = {
 	//req.__('Hello');
 },
 
-'home':function(req,res){
-	console.log('app launched');
+'index':function(req,res){
 	//console.log(__('Welcome'));
 	var locale = res.getLocale();
-	console.log(locale);
 	if(locale === 'en'){
+		//change locale to espanoil
 		res.setLocale('es');
 	}else{
 		res.setLocale('en');

@@ -1,3 +1,3 @@
-# il18n
+# Internationalization using sails application
 
-a [Sails](http://sailsjs.org) application
+Sample [Sails](http://sailsjs.org) application using Internationalization;
